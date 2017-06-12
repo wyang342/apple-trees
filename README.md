@@ -1,12 +1,12 @@
 # Apple Tree 1 - Just Apples
 
-##Learning Competencies
+## Learning Competencies
 
 * Modeling systems with objects.
 * Use instance variables and accessor methods effectively
 * Work with objects in Ruby
 
-##Summary
+## Summary
 
 Rainy Washington grows apples. Fun fact: on average, Washington state grows 125 million boxes of apples per year. At 40 lbs per box, that’s 2.5 million TONS of apples!
 
@@ -14,9 +14,9 @@ Let's create a toy program to model an apple tree growing over the years.  We pl
 
 The tests in `apple_tree_spec.rb` show how all this might work together.
 
-##Releases
+## Releases
 
-###Release 0 : Implement the AppleTree and Apple classes
+### Release 0 : Implement the AppleTree and Apple classes
 
 Use `attr_reader`, `attr_writer`, and/or `attr_accessor` so that we can call `tree.height` and `tree.age` to get a tree's height or age, respectively.  Which of the three `attr_` methods should you be using and why?
 
@@ -61,7 +61,7 @@ Does the script at the top of the challenge run and output what you'd expect?  (
 
 If not, what are the errors or unexpected behaviors?  Do you understand them? Fix your code and write tests that would have caught your bug(s). You might need to update existing tests if you find you were asserting the wrong thing, or in the wrong way.
 
-##Resources
+## Resources
 
 * Video: [Variable Scopes in Ruby](http://www.youtube.com/watch?v=iLxKNUFHAnY)
 * StackOverflow: [Why use Ruby's attr_accessor, attr_reader, and attr_writer?](http://stackoverflow.com/questions/5046831/why-use-rubys-attr-accessor-attr-reader-and-attr-writer)
