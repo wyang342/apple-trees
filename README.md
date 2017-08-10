@@ -24,7 +24,7 @@ Do the same with the `Apple` class so that we can call `apple.diameter` to get a
 
 You should write tests for these methods.
 
-#### Implement Aging
+### Release 1 : Implement Aging
 
 As a tree ages, it grows taller.  Eventually it starts bearing fruit and stops growing &mdash; not necessarily at the same time.  Some years later, the tree dies and can bear fruit no more!
 
@@ -43,7 +43,7 @@ Update your tests to test these methods and their side-effects.
 
 > **Note: Don't use things like `instance_variable_get` in your tests to "peek inside" as you write your tests. Try to write tests that assert correctness using only the public methods you've exposed. If you get stuck on this, ask for help.
 
-#### Implement Apple-picking
+### Release 2 : Implement Apple-picking
 
 After some number of years &mdash; you decide &mdash; the apple tree starts to bear fruit.  Write a method `AppleTree#any_apples?` which returns `true` if there are any apples on the tree and `false` otherwise.
 
