@@ -41,7 +41,7 @@ At this point your `AppleTree` class should:
 
 Update your tests to test these methods and their side-effects.
 
-> **Note: Don't use things like `instance_variable_get` in your tests to "peek inside" as you write your tests. Try to write tests that assert correctness using only the public methods you've exposed. If you get stuck on this, ask for help.
+> *Note: Don't use things like `instance_variable_get` in your tests to "peek inside" as you write your tests. Try to write tests that assert correctness using only the public methods you've exposed. If you get stuck on this, ask for help.*
 
 ### Release 2 : Implement Apple-picking
 
@@ -66,4 +66,4 @@ If not, what are the errors or unexpected behaviors?  Do you understand them? Fi
 * Video: [Variable Scopes in Ruby](http://www.youtube.com/watch?v=iLxKNUFHAnY)
 * StackOverflow: [Why use Ruby's attr_accessor, attr_reader, and attr_writer?](http://stackoverflow.com/questions/5046831/why-use-rubys-attr-accessor-attr-reader-and-attr-writer)
 * StackOverflow: [What is attr_accessor in Ruby?](http://stackoverflow.com/questions/4370960/what-is-attr-accessor-in-ruby)
-* https://www.relishapp.com/rspec/rspec-expectations/v/2-0/docs/matchers/expect-change
+* RSpec Documentation: [Change Matcher](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/change-matcher)
