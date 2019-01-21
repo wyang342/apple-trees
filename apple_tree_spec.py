@@ -20,9 +20,9 @@ with description('AppleTree#age_tree') as self:
 with description('AppleTree#is_dead') as self:
   with it('lets you know when the tree is dead'):
     tree = AppleTree()
-    expect(tree.is_dead).to(be_false)
+    expect(tree.is_dead()).to(be_false)
     tree.age = 500
-    expect(tree.is_dead).to(be_true)
+    expect(tree.is_dead()).to(be_true)
 
 with description('AppleTree#any_apples') as self:
   with it('will let you know if there are any apples on the tree'):
