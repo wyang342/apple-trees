@@ -7,7 +7,6 @@ class Apple:
     pass
 
 class AppleTree:
-
   def __init__(self):
       self.age = 0
       self.height = 0
@@ -31,7 +30,4 @@ class AppleTree:
 
   def pick_an_apple(self):
     raise Exception('This tree has no apples')
-   
-
-
-
+    
