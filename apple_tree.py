@@ -1,7 +1,3 @@
-import random
-import itertools
-import random
-
 class Apple:
   def __init__(self):
     pass
