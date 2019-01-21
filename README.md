@@ -33,7 +33,7 @@ At this point your `AppleTree` class should:
 1. Have a `height` attribute which returns the tree's current height
 2. Have an `age` attribute which returns the tree's current age
 3. Have an `age_tree()` method which ages the tree one year and grows the tree a little, if it's able to grow
-4. Have an `is_dead()` method which returns `True` if the tree has died
+4. Have an `is_dead()` method which returns `True` if the tree has died. Let's say trees die at age 100.
 
 Update your tests to test these methods and their side-effects.
 
