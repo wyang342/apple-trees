@@ -1,7 +1,3 @@
-class Apple:
-  def __init__(self):
-    pass
-
 class AppleTree:
   def __init__(self):
       pass
@@ -17,4 +13,4 @@ class AppleTree:
 
   def pick_an_apple(self):
       raise Exception('No apples on your tree')
-    
+      # Read the tests before coding.

@@ -1,10 +1,13 @@
-from apple_tree import Apple 
-from mamba import description, context, it
-from expects import expect, equal, be_above_or_equal
+import unittest
+from apple import *
 
+class ValidateAppleClass(unittest.TestCase):
+    """Tests for `apple.py`."""
 
-with description('Apple') as self:
-  with it('has a diameter greater than 0'):
-    apple = Apple()
-    expect(apple.diameter).to(be_above_or_equal(1))
-  
+    def test_apple_diameter(self):
+        """When you create an Apple, it will have a diameter greater than 0"""
+        apple = Apple()
+        self.assertGreater(apple.diameter, 0)
+
+if __name__ == '__main__':
+    unittest.main()
