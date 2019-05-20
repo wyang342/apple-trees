@@ -46,7 +46,8 @@ class ValidateAppleTreeClass(unittest.TestCase):
     def test_pick_an_apple_error(self):
         """When you call the pick_an_apple method with a tree that has 0 apples, it will raise an error"""
         apple_tree = AppleTree()
-        self.assertRaises(Exception, apple_tree.pick_an_apple())
+        with self.assertRaises(Exception):
+            apple_tree.pick_an_apple()
 
 if __name__ == '__main__':
     unittest.main()
