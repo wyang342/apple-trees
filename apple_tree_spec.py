@@ -6,14 +6,14 @@ class ValidateAppleTreeClass(unittest.TestCase):
     """Tests for `apple_tree.py`."""
 
     def test_age_tree(self):
-        """When you age the tree, it's age increases by 1"""
+        """When you age the tree, its age increases by 1"""
         apple_tree = AppleTree()
         self.assertEqual(apple_tree.age, 0)
         apple_tree.age_tree()
         self.assertEqual(apple_tree.age, 1)
 
     def test_age_tree_height(self):
-        """When you age the tree, it's height increases"""
+        """When you age the tree, its height increases"""
         apple_tree = AppleTree()
         original_height = apple_tree.height
         self.assertEqual(original_height, 0)
